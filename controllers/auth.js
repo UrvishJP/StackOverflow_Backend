@@ -3,7 +3,6 @@ import bcrypt from 'bcryptjs'
 
 import users from '../models/auth.js'
 
-
 export const signup = async (req,res) =>{
     const {name , email, password} = req.body;
     try{
